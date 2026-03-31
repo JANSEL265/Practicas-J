@@ -1,0 +1,455 @@
+/* 
+.contenedor {
+    width: 80%;
+    height: 500px;
+    background: green;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;}hijo {
+/* section background: darkgreen; */
+/* width: 240px;
+    height: 50px;
+    color: #fff;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center; */
+/* flex-grow: 1;
+flex-shrink: 0;/* flex: 1 1 auto;}section*/
+/* .otro {
+/* /* /* align-self: center; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background: #263B6A;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.jefe {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.margen-interno {
+    padding: 0 25px;
+
+}
+
+.header {
+    background: url(imagenes/luna.jpg);
+    background-position: center;
+    background: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    border-bottom: 10px solid #0a1635a7;
+    border-radius: 7px;
+}
+
+.menu {
+    background: rgba(0, 0, 0, .3);
+    display: flex;
+    flex-flow: row nowrap;
+    height: 60px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+
+}
+
+.logo {
+
+    flex: 1 1 auto;
+    width: 30px;
+    margin-top: 5px;
+
+}
+
+.logo a {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 15px;
+
+}
+
+.logo a:hover {
+
+    color: #3A9AFF;
+}
+
+.nav {
+
+    flex: 5 1 auto;
+    height: 30px;
+    margin-left: 250px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 20px;
+    padding-top: 10px;
+
+
+}
+
+.nav a {
+    margin-left: 20px;
+    color: #81A6C6;
+}
+
+.nav a:hover {
+    color: #3A9AFF;
+}
+
+strong {
+    display: none;
+}
+
+.social {
+    color: #81A6C6;
+    flex: 1 1 auto;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+.social a {
+    color: #81A6C6;
+}
+
+.social a:hover {
+    color: #3A9AFF;
+
+}
+
+.frist {
+    height: 625px;
+    display: flex;
+    align-items: center;
+
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: fantasy;
+    font-size: 21px;
+    color: #7772a4;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.6;
+    background: rgba(0, 0, 0, .7);
+    padding: 10px;
+}
+
+.section {
+    background: #263B6A;
+    display: flex;
+}
+
+.articulos {
+    background: #263B6A;
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.arti {
+    flex: 1 1 40%;
+    color: #6984A9;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 10px 10px 0 0px;
+    flex: 1 1 45%;
+    background: #1A3263;
+
+
+}
+
+.es {
+    padding-left: 8px;
+
+}
+
+.team {
+    font-size: 17px;
+}
+
+.arti img {
+    width: 100%;
+}
+
+.arti a {
+    color: #fff;
+    font-size: 13px;
+    padding: 10px;
+    background: #000;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.arti a:hover {
+    background: #11224E;
+
+}
+
+h3 {
+    color: #EBF4F6;
+    font-size: 17px;
+    padding: 10px 0;
+    margin-top: -80px;
+}
+
+i {
+    color: #25343F;
+    font-size: 20px;
+}
+
+.bus {
+    color: #000;
+}
+
+h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.navegacion {
+    background: lightblue;
+    padding-top: 5px;
+    flex: 1 1 100%;
+    margin: 10px 10px 0 0px;
+
+}
+
+.navegacion a {
+    font-size: 20px;
+    margin-left: 30px;
+    color: #11224E;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.aside {
+    /* background: lime; */
+    flex: 1 1 auto;
+    margin: 10px 5px 10px 0;
+}
+
+.aside img {
+    width: 370px;
+
+}
+
+h4 {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+/* .anuncio {
+background: limegreen;
+}  */
+
+.footer {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: auto;
+}
+
+.pie {
+    text-align: center;
+    background: navy;
+    width: 300px;
+    padding: 20px;
+}
+
+.pie a {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+@media all and (max-width: 1122px) {
+
+    .section {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        height: auto;
+        margin: 0px;
+    }
+
+    .nav a {
+        margin-left: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    strong {
+        display: none;
+
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    .frist {
+        height: 540px;
+    }
+
+    .aside {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aside img {
+        width: 300px;
+    }
+
+    .logo {
+        margin-left: 220px;
+
+    }
+
+    .social {
+        margin-left: 250px;
+
+    }
+
+}
+
+
+@media all and (max-width: 900px) {
+
+    .nav a {
+        margin-left: 15px;
+
+    }
+
+    .articulos {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aside {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    h4 {
+        text-align: center;
+
+    }
+
+}
+
+@media all and (max-width: 744px) {
+
+    .logo {
+        margin: 0px;
+
+    }
+
+    .off {
+        display: none;
+    }
+
+    strong {
+        display: inline;
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 495px) {
+    .logo {
+        margin: 0px;
+
+    }
+
+    .nav {
+        margin-left: auto;
+
+    }
+
+    .nav strong {
+        margin: 0px;
+
+    }
+
+}
+
+@media all and (max-width: 320px) {
+
+    .frist {
+        height: 450px;
+        overflow-y: scroll;
+        padding-top: 50px;
+    }
+
+    h1 {
+        height: 450px;
+        font-weight: 100px;
+        background: rgba(0, 0, 0, .7);
+    }
+
+    footer {
+        width: auto;
+    }
+
+    .pie {
+        max-width: auto;
+    }
+
+    .aside {
+        flex-direction: column;
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 15px
+    }
+
+    .social {
+        margin-right: 200px;
+    }
+
+    .articulos {
+        /* width: 1px; */
+        width: 90%;
+        height: 270px;
+        flex-direction: row;
+    }
+
+    .arti {
+        width: 150px;
+        overflow-y: scroll;
+        height: 50px;
+
+    }
+
+}
